@@ -5,19 +5,19 @@ print("Hey amit" + " " + "How are you ?")
 # simple methos
 print("Hey" + " " + input("What is your name? ") + " " + "How are you ?")
 
-# USING VARIABLE 
+# 1. USING VARIABLE 
 name = input("What is your name? ")
 print("Hey " + name + " How are you?")
 
-# USING F-STRING 
+# 2. USING F-STRING 
 name = input("What is your name? ")
 print(f"Hey {name} How are you?")
 
-# USING FORMAT()
+# 3.USING FORMAT()
 name = input("What is your name? ")
 print("Hey {} How are you?".format(name))
 
-
+# 4. Multiple Argumented 
 name = input("What is your name? ")
 print("Hey", name, "How are you?")
 
