@@ -9,6 +9,11 @@ class CSStudent:
 a = CSStudent('Amit',1)
 b = CSStudent('Nat',2)
 
+a.stream = 'ece'
+
+print(a.stream)
+print(b.stream)
+
 
 print(a.stream)
 print(b.stream)
